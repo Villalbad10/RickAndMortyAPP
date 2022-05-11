@@ -1,9 +1,39 @@
-.cont{
+.cont {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-top: 2rem;
 }
-.card{
-    margin-bottom: 1rem;
+
+.card {
+    color: white;
+    width: 28rem;
+}
+
+span {
+    background-color: green;
+    border-radius: 50%;
+}
+
+.imagen {
+    height: 100%;
+}
+
+.verde {
+    margin-right: 0.5rem;
+    height: .5rem;
+    width: .5rem;
+    background-color: green;
+    border-radius: 50%;
+}
+.gris {
+    margin-right: 0.5rem;
+    height: .5rem;
+    width: .5rem;
+    background-color: rgb(175, 187, 175);
+    border-radius: 50%;
+}
+.estado{
+    display: flex;
+    align-items: center;
 }

@@ -6,7 +6,6 @@ const cont = document.querySelector('.cont');
 
 document.addEventListener('DOMContentLoaded', async () => {
     const data = await getData();
-    console.log(data);
 
     viewPerson(data, cont)
 })
